@@ -1,0 +1,15 @@
+apiVersion: pipelinesascode.tekton.dev/v1alpha1
+kind: Repository
+metadata:
+  annotations:
+    appstudio.openshift.io/application: jamil3
+    appstudio.openshift.io/component: backend-quality-dashboard-b8lh
+    build.appstudio.openshift.io/build: "true"
+    build.appstudio.openshift.io/type: build
+    build.appstudio.openshift.io/version: "0.1"
+    pipelines.appstudio.openshift.io/type: build
+  creationTimestamp: null
+  name: backend-quality-dashboard-b8lh
+  namespace: mfaisal2-tenant
+spec:
+  url: https://github.com/psrna/quality-dashboard
